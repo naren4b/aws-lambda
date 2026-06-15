@@ -1,4 +1,5 @@
-<img width="1000" height="700" alt="aws-lambda-nha-design" src="https://github.com/user-attachments/assets/34442040-e6f8-4b07-857a-6fc63b3320a5" />
+<img width="1302" height="983" alt="aws-lambda-image-analyzer" src="https://github.com/user-attachments/assets/55c3add3-9d51-413d-a54c-85af41612e2b" />
+
 
 _Amazon API Gateway | AWS Lambda | Amazon S3 | Amazon DynamoDB | Anthropic Claude_
 
