@@ -1,7 +1,7 @@
-# NutriScan AI: Automated Food Ingredient & Health Risk Assessment
+<img width="1000" height="700" alt="aws-lambda-nha-design" src="https://github.com/user-attachments/assets/34442040-e6f8-4b07-857a-6fc63b3320a5" />
+
 _Amazon API Gateway | AWS Lambda | Amazon S3 | Amazon DynamoDB | Anthropic Claude_
 
-<img width="1000" height="700" alt="aws-lambda-nha-design" src="https://github.com/user-attachments/assets/34442040-e6f8-4b07-857a-6fc63b3320a5" />
 
 **Overview**
 In compliance with government regulations, all packaged food manufacturers are required to print detailed ingredient lists on their product wrappers. However, navigating complex chemical names, hidden allergens, and nutritional jargon makes it incredibly difficult for the average consumer to make informed, healthy choices. Sending every product to a nutritionist for evaluation is slow and impractical.
