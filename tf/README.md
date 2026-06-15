@@ -1,7 +1,3 @@
-Here is an updated and expanded operational guide for your **NutriScan AI** project. This documentation perfectly aligns your manual implementation steps with the serverless design architecture and the resources managed by your Terraform configuration.
-
----
-
 ## 🏗️ Production Setup & Execution Lifecycle
 
 To successfully deploy and test the **NutriScan AI** infrastructure, execute the following implementation steps sequentially. Each stage maps out the exact permissions and resources required for our serverless processing pipeline.
@@ -167,4 +163,3 @@ To avoid ongoing charges for retained cloud components when you are done testing
 
 ---
 
-Would you like me to write a **Local Python Test Script** using `requests` that automates uploading a real image file to your S3 bucket and triggering this API Gateway URL directly from your computer?
