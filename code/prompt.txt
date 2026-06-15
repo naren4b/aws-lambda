@@ -1,0 +1,27 @@
+Analyze the attached image of a packaged food product wrapper ingredient label with these specific steps:
+
+1. Text Extraction & Ingredient Identification: Locate and extract the primary ingredient list by looking for:
+   - Header markers such as "Ingredients:", "CONTAINS:", or regional regulatory label tables.
+   - Text written in small print, usually organized in descending order of weight.
+   - Separate distinct components from regular product marketing text or branding slogans.
+   List all identified ingredients sequentially.
+
+2. Hidden Allergen Analysis: Examine the extracted text for common dietary allergens:
+   - Identify explicit or hidden mentions of primary allergens (e.g., gluten, wheat, milk/dairy, peanuts, tree nuts, soy, eggs, fish, shellfish).
+   - Flag processing facility cross-contamination warnings (e.g., "May contain traces of...", "Manufactured in a facility that processes...").
+
+3. Additives & Chemical Screening: Scan the ingredient text for synthetic or highly processed additives:
+   - Identify artificial colors, synthetic flavor enhancers (e.g., MSG), chemical preservatives (e.g., sodium benzoate, BHA, BHT), and artificial sweeteners.
+   - Note if the product contains highly refined oils or trans fats (e.g., hydrogenated or partially hydrogenated oils).
+
+4. Nutritional Risk Profiling: Assess the product's compounding nutritional factors if visible on the label text:
+   - Look for red flags such as multiple forms of added sugars (e.g., high-fructose corn syrup, cane sugar, dextrose, maltodextrin).
+   - Evaluate the positioning of salt/sodium compounds relative to the top of the ingredient list.
+
+5. Health Risk Rating: Based on your comprehensive analysis, assign a Health Risk Rating from 1-4:
+   - Rating 1 (Low Risk): Clean label containing whole-food ingredients, no artificial chemical preservatives, and free of major allergens.
+   - Rating 2 (Moderate Risk): Contains minor processed stabilizers or natural additives, minimal added sugars, with clearly labeled common allergens.
+   - Rating 3 (High Risk): Contains multiple synthetic additives, artificial flavors, chemical preservatives, or high-fructose corn syrup; presents clear risk parameters for sensitive diets.
+   - Rating 4 (Severe Risk): Heavily laden with artificial chemicals, hydrogenated trans fats, or unlabelled/ambiguous ingredient groups that pose high metabolic or allergenic risks.
+
+Provide your final response structured strictly as a clean JSON block with the following keys: 'ingredients_found', 'health_risk_rating' (displaying the single number from 1-4), and 'brief_justification' (providing a direct explanation of the flagged items that justified the chosen rating). Do not include any conversational pleasantries or markdown wrapping outside the JSON structure.
