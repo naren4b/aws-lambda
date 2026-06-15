@@ -1,1 +1,13 @@
+# Local Terraform directories & state
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
 
+# Sensitive variables file containing active deployment variables
+terraform.tfvars
+
+# Python build artifacts
+__pycache__/
+*.pyc
+lambda_dummy.zip
